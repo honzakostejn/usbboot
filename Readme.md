@@ -36,7 +36,7 @@ Make sure that the system date is set correctly, otherwise Git may produce an er
 
 ```bash
 sudo apt install git libusb-1.0-0-dev pkg-config build-essential
-git clone --recurse-submodules --shallow-submodules --depth=1 https://github.com/raspberrypi/usbboot
+git clone --recurse-submodules --shallow-submodules --depth=1 https://github.com/honzakostejn/usbboot
 cd usbboot
 make
 # Either
@@ -60,7 +60,7 @@ From a macOS machine, you can also run usbboot, just follow the same steps:
 6. Run the binary
 
 ```bash
-git clone --recurse-submodules --shallow-submodules --depth=1 https://github.com/raspberrypi/usbboot
+git clone --recurse-submodules --shallow-submodules --depth=1 https://github.com/honzakostejn/usbboot
 cd usbboot
 brew install libusb
 brew install pkg-config
